@@ -58,18 +58,12 @@
             android:gravity="center_horizontal"
             />
     </RadioGroup>
-    <View
-        android:layout_below="@+id/home_top_menubar"
-        android:id="@+id/view_top"
-        android:layout_width="match_parent"
-        android:layout_height="12dp"
-        android:background="@color/spacing_simple"></View>
     <ListView
         android:dividerHeight="6dp"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:id="@+id/listview_trend"
-        android:layout_below="@+id/view_top">
+        android:layout_below="@+id/home_top_menubar">
     </ListView>
     <RadioGroup
         android:layout_width="match_parent"

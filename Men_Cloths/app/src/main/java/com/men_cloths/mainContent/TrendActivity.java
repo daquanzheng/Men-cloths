@@ -2,6 +2,8 @@ package com.men_cloths.mainContent;
 
 import android.app.Activity;
 import android.os.Bundle;
+import android.view.View;
+import android.view.ViewGroup;
 import android.widget.ListView;
 
 import com.men_cloths.R;
@@ -23,6 +25,13 @@ public class TrendActivity extends Activity{
         listView= (ListView) findViewById(R.id.listview_trend);
         TrendAdapter trendAdapter=new TrendAdapter(this,getdata());
         listView.setAdapter(trendAdapter);
+        View view=new View(this);
+        ViewGroup.LayoutParams layoutParams=new ViewGroup.LayoutParams(
+                ViewGroup.LayoutParams.MATCH_PARENT,12
+        );
+        view.setLayoutParams(layoutParams);
+        view.setBackgroundResource(R.color.spacing_simple);
+        listView.addHeaderView(view);
     }
         public List<Trend> getdata(){
             List<Trend> trendList=new ArrayList<>();
