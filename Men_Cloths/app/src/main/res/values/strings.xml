@@ -1,3 +1,19 @@
 <resources>
-    <string name="app_name">Men_Cloths</string>
+    <string name="app_name">Project</string>
+    <string name="title_brand">品牌关注</string>
+    <string name="seting">设置</string>
+    <string name="person_info">个人资料</string>
+    <string name="user">账户</string>
+    <string name="oher">通用</string>
+    <string name="message">消息</string>
+    <string name="head">头像</string>
+    <string name="setyourname">还是空的，快来设置个性化名子吧</string>
+    <string name="man">男</string>
+    <string name="address_seting">收获地址</string>
+    <string name="user_name">账户名</string>
+    <string name="interchangedable">通用</string>
+    <string name="shengliuliang">开启省流量模式</string>
+    <string name="ding_wei_server">开启定位服务</string>
+    <string name="collect">收藏</string>
+    <string name="quxiao">取消收藏</string>
 </resources>

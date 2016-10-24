@@ -3,4 +3,17 @@
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
+    <color name="brand_font">#111111</color>
+    <color name="brand_frame">#e5e5e5</color>
+    <color name="set_font_num1">#111111</color>
+    <color name="set_font_num2">#959595</color>
+    <color name="set_icont">#fff</color>
+    <color name="set_personal_information">#dc3ef8</color>
+    <color name="set_user">#45a6f8</color>
+    <color name="set_message">#40c1f1</color>
+    <color name="set_other">#444344</color>
+    <color name="set_split_line">#e5e5e5</color>
+    <color name="set_open">#969696</color>
+    <color name="set_close">#52a321</color>
+    <color name="white">#fff</color>
 </resources>
