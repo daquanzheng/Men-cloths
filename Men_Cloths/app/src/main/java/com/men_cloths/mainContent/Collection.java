@@ -1,4 +1,4 @@
-package com.men_cloths;
+package com.men_cloths.mainContent;
 
 
 import android.app.Activity;
@@ -8,13 +8,14 @@ import android.widget.ListView;
 import java.util.ArrayList;
 import java.util.List;
 
-import adapter.Adapter;
-import database.Shop;
+import com.men_cloths.R;
+import com.men_cloths.adapter.Adapter;
+import com.men_cloths.model.Shop;
 
 public class Collection extends Activity{
 	
-	ListView listView;
-	List<Shop> list;
+	private ListView listView;
+	private List<Shop> list;
 	
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {

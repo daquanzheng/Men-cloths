@@ -1,4 +1,4 @@
-package database;
+package com.men_cloths.model;
 
 public class Shop {
 	private int image;

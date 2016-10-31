@@ -1,7 +1,9 @@
-package com.men_cloths;
+package com.men_cloths.mainContent;
 
 import android.app.Activity;
 import android.os.Bundle;
+
+import com.men_cloths.R;
 
 /**
  * Created by Administrator on 2016/10/18.

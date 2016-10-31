@@ -1,4 +1,4 @@
-package adapter;
+package com.men_cloths.adapter;
 
 import android.content.Context;
 import android.view.View;
@@ -40,8 +40,7 @@ public class AdapterforAll extends BaseAdapter{
     }
 
     @Override
-    public View getView(int position, View convertView, ViewGroup parent) {
-
+    public View getView(int position, View convertView, ViewGroup parent){
         return item.getView(position,convertView);
     }
 }

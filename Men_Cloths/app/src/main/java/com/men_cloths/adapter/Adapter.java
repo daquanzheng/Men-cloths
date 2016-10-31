@@ -1,4 +1,4 @@
-package adapter;
+package com.men_cloths.adapter;
 
 import android.content.Context;
 import android.view.LayoutInflater;
@@ -12,7 +12,7 @@ import com.men_cloths.R;
 
 import java.util.List;
 
-import database.Shop;
+import com.men_cloths.model.Shop;
 
 public class Adapter {
 	

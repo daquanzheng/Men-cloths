@@ -1,4 +1,4 @@
-package com.men_cloths;
+package com.men_cloths.mainContent;
 
 import android.content.Context;
 import android.content.res.TypedArray;
@@ -9,6 +9,8 @@ import android.graphics.Paint;
 import android.graphics.Rect;
 import android.util.AttributeSet;
 import android.view.View;
+
+import com.men_cloths.R;
 
 /**
  * Created by Administrator on 2016/10/20.
@@ -39,7 +41,7 @@ public class SwitchButton extends View{
         super(context, attrs);
         init();
         //obtainStyledAttributes(int[]) (in android.content.Context)
-        TypedArray typedArray=context.obtainStyledAttributes(attrs,R.styleable.switchButton);
+        TypedArray typedArray=context.obtainStyledAttributes(attrs, R.styleable.switchButton);
         state=typedArray.getBoolean(R.styleable.switchButton_state,true);
         if(state==true)
         {

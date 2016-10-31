@@ -12,10 +12,12 @@
         >
 
         <ImageView
+            android:id="@+id/back"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:src="@mipmap/left_brand"
             android:padding="10dp"
+            android:scaleType="centerCrop"
             />
 
         <TextView
