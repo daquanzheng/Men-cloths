@@ -10,10 +10,7 @@
         android:theme="@style/AppTheme">
 
          <activity android:name=".mainContent.Seting">
-             <intent-filter>
-                 <action android:name="android.intent.action.MAIN"/>
-                 <category android:name="android.intent.category.LAUNCHER"/>
-             </intent-filter>
+
          </activity>
         <activity android:name=".mainContent.Account" android:launchMode="singleTask"/>
         <activity android:name=".mainContent.Interchangeable" android:launchMode="singleTask"/>
@@ -30,7 +27,13 @@
 
         <activity android:name="com.men_cloths.mainContent.TrendActivity"/>
 
-        <activity android:name=".mainContent.Coupon"/>
+        <activity android:name=".mainContent.ShopInfo">
+
+        </activity>
+
+        <activity android:name=".mainContent.Test">
+
+        </activity>
 
 
     </application>

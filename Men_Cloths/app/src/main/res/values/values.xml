@@ -4,4 +4,10 @@
         <attr name="state" format="boolean"/>
     </declare-styleable>
 
+    <declare-styleable name="viewFiller">
+        <attr name="left" format="integer"/>
+        <attr name="right" format="integer"/>
+        <attr name="center" format="integer"/>
+    </declare-styleable>
+
 </resources>

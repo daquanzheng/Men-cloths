@@ -11,15 +11,18 @@ import java.util.List;
  * Created by Administrator on 2016/10/24.
  */
 
-public class AdapterforAll extends BaseAdapter{
+public abstract class AdapterforAll extends BaseAdapter{
     private Context context;
     private List<Object> list;
-    public AdapterforAll(Context context, List<Object> list,item item){
+    public AdapterforAll(Context context, List<Object> list){
         this.context=context;
         this.list=list;
-        this.item=item;
+
     }
-    private  item item;
+
+
+
+
     public interface item{
         public View getView(int position, View convertView);
     }
@@ -41,6 +44,9 @@ public class AdapterforAll extends BaseAdapter{
 
     @Override
     public View getView(int position, View convertView, ViewGroup parent){
-        return item.getView(position,convertView);
+        return setView(position,convertView);
     }
+    public abstract View setView(int position, View convertView);
+
+
 }
