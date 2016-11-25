@@ -3,13 +3,13 @@
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
-<<<<<<< HEAD
+
     <color name="black_model">#111111</color>
     <color name="green_bg">#32b8b3</color>
     <color name="spacing_simple">#e5e5e5</color>
     <color name="spacing_deep">#959595</color>
     <color name="white">#ffffff</color>
-=======
+
     <color name="brand_font">#111111</color>
     <color name="brand_frame">#e5e5e5</color>
     <color name="set_font_num1">#111111</color>
@@ -22,6 +22,5 @@
     <color name="set_split_line">#e5e5e5</color>
     <color name="set_open">#969696</color>
     <color name="set_close">#52a321</color>
-    <color name="white">#fff</color>
->>>>>>> origin/feature/zhangwen
+
 </resources>
