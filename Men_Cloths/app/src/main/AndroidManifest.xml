@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.men_cloths">
+    <uses-permission android:name="android.permission.INTERNET"/>
 
     <application
         android:allowBackup="true"
@@ -8,6 +9,14 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+
+
+        <activity android:name="com.men_cloths.mainContent.TrendActivity"/>
+
+
+        <activity android:name=".mainContent.Coupon"/>
+
+
 
          <activity android:name=".mainContent.Seting">
 
@@ -20,15 +29,16 @@
         <activity android:name=".mainContent.Collection" />
         <activity android:name=".mainContent.Brand"/>
         <activity android:name=".mainContent.BindtoTel" android:launchMode="singleTask"/>
-        <activity android:name=".mainContent.Coupon"/>
+
         <activity android:name=".mainContent.Passwd" android:launchMode="singleTask"/>
         <activity android:name=".mainContent.SoftPassword" android:launchMode="singleTask"/>
         <activity android:name=".mainContent.SoftPassWorldForChange" android:launchMode="singleTask"/>
 
-        <activity android:name="com.men_cloths.mainContent.TrendActivity"/>
+
+
 
         <activity android:name=".mainContent.ShopInfo">
-
+             
         </activity>
 
         <activity android:name=".mainContent.Test">

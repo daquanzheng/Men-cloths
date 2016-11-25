@@ -1,9 +1,11 @@
 <resources>
 
 
+
     <string name="trend_item_title1">2016年秋冬运动新品速递</string>
     <string name="trend_item_title2">2016年时尚秋装推荐展示</string>
     <string name="app_name">Project</string>
+
     <string name="title_brand">品牌关注</string>
     <string name="seting">设置</string>
     <string name="person_info">个人资料</string>

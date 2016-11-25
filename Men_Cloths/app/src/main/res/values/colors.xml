@@ -9,6 +9,8 @@
     <color name="spacing_simple">#e5e5e5</color>
     <color name="spacing_deep">#959595</color>
 
+    <color name="white">#ffffff</color>
+
 
     <color name="brand_font">#111111</color>
     <color name="brand_frame">#e5e5e5</color>
@@ -22,6 +24,6 @@
     <color name="set_split_line">#e5e5e5</color>
     <color name="set_open">#969696</color>
     <color name="set_close">#52a321</color>
-    <color name="white">#fff</color>
+
 
 </resources>
