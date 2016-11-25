@@ -19,6 +19,7 @@
 
 
          <activity android:name=".mainContent.Seting">
+            
 
          </activity>
         <activity android:name=".mainContent.Account" android:launchMode="singleTask"/>
@@ -38,7 +39,7 @@
 
 
         <activity android:name=".mainContent.ShopInfo">
-             
+
         </activity>
 
         <activity android:name=".mainContent.Test">

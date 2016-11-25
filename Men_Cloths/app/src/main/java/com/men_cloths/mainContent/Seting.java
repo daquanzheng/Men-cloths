@@ -19,39 +19,47 @@ public class Seting extends Activity{
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.seting);
-        linearLayout= (LinearLayout) findViewById(R.id.account);
-        linearLayout.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent=new Intent(Seting.this,Account.class);
-                startActivity(intent);
-            }
-        });
-        message= (LinearLayout) findViewById(R.id.message);
-        message.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent=new Intent(Seting.this,MessAge.class);
-                startActivity(intent);
-            }
-        });
-        interchanged= (LinearLayout) findViewById(R.id.interchanged);
-        interchanged.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent=new Intent(Seting.this,Interchangeable.class);
-                startActivity(intent);
-            }
-        });
-
-        personInfo= (LinearLayout) findViewById(R.id.personInfo);
-        personInfo.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent=new Intent(Seting.this,PersonInfo.class);
-                startActivity(intent);
-            }
-        });
+        init();
+        setOnclick();
 
     }
+    public void init(){
+        linearLayout= (LinearLayout) findViewById(R.id.account);
+        message= (LinearLayout) findViewById(R.id.message);
+        interchanged= (LinearLayout) findViewById(R.id.interchanged);
+        personInfo= (LinearLayout) findViewById(R.id.personInfo);
+    }
+
+    public void setOnclick(){
+        linearLayout.setOnClickListener(listener);
+        message.setOnClickListener(listener);
+        interchanged.setOnClickListener(listener);
+        personInfo.setOnClickListener(listener);
+    }
+
+
+    View.OnClickListener listener=new View.OnClickListener() {
+        @Override
+        public void onClick(View v) {
+            Intent intent;
+            switch (v.getId()){
+                case R.id.account:
+                     intent=new Intent(Seting.this,Account.class);
+                    startActivity(intent);
+                    break;
+                case R.id.message:
+                    intent=new Intent(Seting.this,MessAge.class);
+                    startActivity(intent);
+                    break;
+                case R.id.interchanged:
+                     intent=new Intent(Seting.this,Interchangeable.class);
+                    startActivity(intent);
+                    break;
+                case R.id.personInfo:
+                    intent=new Intent(Seting.this,PersonInfo.class);
+                    startActivity(intent);
+                    break;
+            }
+        }
+    };
 }
